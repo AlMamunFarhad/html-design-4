@@ -1,0 +1,67 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/* hero section */
+
+.hero-section{
+    background-color: #322B81BD;
+color: #fff;
+}
+.hero-section h1{
+    font-size: 2.5rem;
+    font-weight: 600;
+}
+.hero-section .hero-content h1 span{
+    background-color: #ffd800;
+}
+    
+
+    /* card */
+.card-section {
+    background-color: #322B81BD;
+    padding: 4rem 0;
+}
+.card-section .top{
+    color: #fff;
+}
+.card-title h3{
+    margin: .5rem;
+    padding: .5rem;
+
+}
+
+.card-btn a{
+    text-decoration: none;
+    font-weight: 600;
+    font-size: 2.5rem;
+    color: #000;
+    background-color: #ffe353;
+    padding: .4rem 2rem;
+    border-radius: .375rem;
+}
+
+
+
+  /* footer */
+  footer {
+    background: rgb(47, 47, 47);
+}
+
+footer a{
+    text-decoration: none;
+    color: #ffa829;
+    font-weight: 500;
+    margin: 1rem .6rem;
+}
+@media screen and (max-width: 992px){
+    .card-body .card-btn a{
+     font-size: 1rem;
+    }
+ }
+ @media screen and (max-width: 768px){
+    .hero-content h1{
+        font-size: 2rem !important;
+    }
+ }
